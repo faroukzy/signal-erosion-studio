@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wealth Distribution Spiral — Signal Erosion Studio</title>
+  <meta name="description" content="Global wealth inequality visualized as a logarithmic spiral — the top 1% at the center holds 45.8% of all wealth, while the outer 50% holds barely 1%.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <a href="../index.html" class="nav-logo">Signal <span>Erosion</span> Studio</a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../gallery.html">Gallery</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Piece Hero Image -->
+  <div class="piece-hero">
+    <div class="piece-hero-image" data-lightbox>
+      <img src="../images/wealth-distribution-spiral.png" alt="Wealth Distribution Spiral — global inequality as logarithmic geometry">
+    </div>
+  </div>
+
+  <!-- Piece Content -->
+  <div class="piece-content">
+
+    <div class="piece-header">
+      <h1>Wealth Distribution Spiral</h1>
+      <div class="piece-header-meta">
+        <span class="tag tag-dataviz">Data Visualization</span>
+        <span class="date">February 2026</span>
+      </div>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Philosophy</p>
+      <p>Global wealth inequality visualized as a logarithmic spiral. The innermost ring holds the top 1%, with each outward ring representing the next decile of the global population. Area is proportional to wealth share, creating a stark visual contrast between the concentrated center and the vast outer rings that hold almost nothing.</p>
+      <p>The logarithmic form reveals the mathematical nature of wealth concentration: each ring's radius increases exponentially, but its share shrinks proportionally. The spiral becomes a portrait of exponential inequality. This is not a neutral chart — it's a deliberate visualization of structural inequality, making visible what linear charts obscure.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Visual Language</p>
+      <p>A golden spiral emerges from the center — luminous, dense, compact. As it expands outward, the rings grow wider but dimmer, their mass diluted across larger circumferences. The outer 50% of humanity occupies barely visible rings at the spiral's edge.</p>
+      <p>Ring thickness is proportional to wealth share. The top 1% (holding 45.8% of global wealth) glows as the thickest, brightest ring. By the time we reach the bottom 50% (holding just 1.0% of wealth), the ring is so thin it nearly vanishes — a geometric representation of how little remains for most of humanity.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Color</p>
+      <p>Color transitions encode inequality as a gradient from concentrated wealth to dispersed poverty. The inner rings — top 1%, 5%, 10% — glow in gold, representing concentrated luminosity. Middle deciles fade from gold to amber to rose. The outer 50% renders in dim teal, barely visible against the abyssal dark background.</p>
+      <p>Intensity decreases with each outward step, creating a visual hierarchy that mirrors the economic one: brightness equals wealth. The piece asks — can a system be called "distributed" when nearly half of all value sits in the innermost ring?</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Data</p>
+      <p>Based on Credit Suisse Global Wealth Report 2023. The top 1% owns 45.8% of global wealth. The top 10% owns 81.5%. The bottom 50% of humanity — 4 billion people — owns just 1.0% of all wealth. Percentage labels mark key rings at 1%, 10%, and 50%. Wealth thresholds ($1M, $10M, $100M, $1B) are subtly marked on the grid.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Technical Details</p>
+      <div class="piece-technical">
+        <dl>
+          <dt>Medium</dt>
+          <dd>Generative data visualization (Python / Pillow)</dd>
+          <dt>Dimensions</dt>
+          <dd>2400 &times; 3200 px</dd>
+          <dt>Color Space</dt>
+          <dd>sRGB, dark-ground with gradient rings (gold &rarr; amber &rarr; rose &rarr; teal)</dd>
+          <dt>Technique</dt>
+          <dd>Logarithmic spiral, proportional ring thickness, opacity gradient, radial grid guides, annotated wealth thresholds, multi-pass glow compositing</dd>
+          <dt>Data Source</dt>
+          <dd>Credit Suisse Global Wealth Report 2023</dd>
+          <dt>Date</dt>
+          <dd>February 2026</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="piece-nav">
+      <a href="global-internet-traffic-flow.html">&larr; Global Internet Traffic Flow</a>
+      <a href="evolution-of-the-alphabet.html">Evolution of the Alphabet &rarr;</a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Signal Erosion Studio &middot; A collaboration between <a href="https://x.com/faroukzy" target="_blank" rel="noopener">@faroukzy</a> and <a href="https://www.anthropic.com" target="_blank" rel="noopener">Claude</a></p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

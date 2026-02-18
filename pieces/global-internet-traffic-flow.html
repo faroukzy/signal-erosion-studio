@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Internet Traffic Flow — Signal Erosion Studio</title>
+  <meta name="description" content="Global Internet Traffic Flow: mapping the invisible infrastructure of the internet — major exchange points, submarine cables, and traffic density between continents.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <a href="../index.html" class="nav-logo">Signal <span>Erosion</span> Studio</a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../gallery.html">Gallery</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Piece Hero Image -->
+  <div class="piece-hero">
+    <div class="piece-hero-image" data-lightbox>
+      <img src="../images/global-internet-traffic-flow.png" alt="Global Internet Traffic Flow — visualization of major internet exchange points and submarine cable routes">
+    </div>
+  </div>
+
+  <!-- Piece Content -->
+  <div class="piece-content">
+
+    <div class="piece-header">
+      <h1>Global Internet Traffic Flow</h1>
+      <div class="piece-header-meta">
+        <span class="tag tag-dataviz">Data Visualization</span>
+        <span class="date">February 2026</span>
+      </div>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Philosophy</p>
+      <p>The internet is often described as a "cloud" — an abstraction that obscures its physical reality. In truth, the internet is a sprawling network of undersea cables, satellite links, and terrestrial fiber spanning the planet. This visualization maps the invisible infrastructure: the major internet exchange points (IXPs), submarine cable routes, and traffic density between continents. It's a portrait of humanity's nervous system — the electromagnetic pulses carrying our conversations, commerce, and culture across oceans.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Visual Language</p>
+      <p>The piece uses a modified orthographic projection centered on the Atlantic, showing both hemispheres. Continents appear as dark landmasses with faint coastal outlines. The focus is on the <strong>connections</strong> — glowing arcs tracing great-circle routes between major internet hubs. Traffic volume is encoded in line thickness and luminosity. High-traffic routes (US-Europe, US-Asia, Europe-Asia) glow brighter and thicker than secondary routes.</p>
+      <p>Key visual elements: arc trajectories following great-circle paths with heights proportional to distance; hub nodes as bright convergence points at major cities (London, New York, Singapore, Tokyo, Frankfurt); faint submarine cable routes rendered beneath the traffic arcs; and traffic patterns that reveal the hierarchical structure of global internet routing.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Color</p>
+      <p>The color palette encodes network activity. Primary routes with high traffic flow in electric cyan to white at peak intensity. Secondary routes in teal at reduced opacity. Submarine cable infrastructure appears in deep blue, establishing the physical foundation beneath the data flows. Hub nodes shine as bright white cores with cyan halos, marking the convergence points where continents connect. The entire composition sits against a deep ocean blue-black background, emphasizing the oceanic cables that carry most international traffic.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Data</p>
+      <p>The visualization represents typical global routing hierarchies based on internet exchange point locations from PeeringDB and TeleGeography, submarine cable routes from SubmarineCableMap.com, and traffic volume estimates from regional internet registry statistics. The Atlantic corridor — connecting North America, Europe, and Africa — dominates the frame as the densest internet infrastructure zone on the planet. Asia-Pacific routes arc across the top, connecting Tokyo, Singapore, and Hong Kong to the global network.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Technical Details</p>
+      <div class="piece-technical">
+        <dl>
+          <dt>Medium</dt>
+          <dd>Generative data visualization (Python / Pillow)</dd>
+          <dt>Dimensions</dt>
+          <dd>2400 &times; 3200 px</dd>
+          <dt>Color Space</dt>
+          <dd>sRGB, dark-ground with cyan-to-white traffic gradients</dd>
+          <dt>Technique</dt>
+          <dd>Orthographic projection, great-circle arc interpolation, traffic-weighted line rendering, additive glow compositing</dd>
+          <dt>Data Sources</dt>
+          <dd>PeeringDB, TeleGeography, SubmarineCableMap.com, Regional Internet Registries</dd>
+          <dt>Date</dt>
+          <dd>February 2026</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="piece-nav">
+      <a href="../gallery.html">&larr; Back to Gallery</a>
+      <a href="wealth-distribution-spiral.html">Wealth Distribution Spiral &rarr;</a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Signal Erosion Studio &middot; A collaboration between <a href="https://x.com/faroukzy" target="_blank" rel="noopener">@faroukzy</a> and <a href="https://www.anthropic.com" target="_blank" rel="noopener">Claude</a></p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

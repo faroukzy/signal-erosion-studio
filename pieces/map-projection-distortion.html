@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Projection Distortion — Signal Erosion Studio</title>
+  <meta name="description" content="Map Projection Distortion: four projections compared with Tissot's indicatrices, revealing how every map lies about the Earth.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <a href="../index.html" class="nav-logo">Signal <span>Erosion</span> Studio</a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../gallery.html">Gallery</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Piece Hero Image -->
+  <div class="piece-hero">
+    <div class="piece-hero-image" data-lightbox>
+      <img src="../images/map-projection-distortion.png" alt="Map Projection Distortion — four projections with Tissot's indicatrices showing cartographic distortion">
+    </div>
+  </div>
+
+  <!-- Piece Content -->
+  <div class="piece-content">
+
+    <div class="piece-header">
+      <h1>Map Projection Distortion</h1>
+      <div class="piece-header-meta">
+        <span class="tag tag-infographics">Infographic</span>
+        <span class="date">February 2026</span>
+      </div>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Philosophy</p>
+      <p>Map Projection Distortion reveals the fundamental impossibility at the heart of cartography: you cannot flatten a sphere without lying. Every world map is a compromise — preserving some geometric property at the expense of others. This piece makes those lies visible by comparing four major projections, each annotated with Tissot's indicatrices — the diagnostic circles that reveal exactly where and how a projection distorts the Earth's surface.</p>
+      <p>The visual comparison is the argument: no single map is "correct." Every map you have ever seen was a choice, not a fact — a projection of priorities as much as geography.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Visual Language</p>
+      <p>Four projections in a 2&times;2 grid: Mercator (conformal — preserves shape, distorts area), Sinusoidal (equal-area — preserves area, distorts shape), Robinson (compromise — moderate distortion everywhere), and Orthographic (perspective — the globe from space). Each renders the same Earth, yet each tells a different story about the planet's geometry.</p>
+      <p>Tissot's indicatrices are the diagnostic heart. On a perfect globe, every indicatrix is an identical circle. On a projected map, they deform: stretching into ellipses where the projection distorts shape, growing larger where it inflates area. The Mercator's indicatrices balloon near the poles. The equal-area projection keeps them the same size but warps their shape.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Color</p>
+      <p>Color is restrained and functional. Continental outlines in muted teal serve as geographic reference. Grid lines in faint gold provide the mathematical scaffold each projection bends differently. Tissot's indicatrices pulse in rose — diagnostic warnings marking where the map lies. The dark ground unifies all four projections into a single comparative argument.</p>
+    </div>
+
+    <div class="piece-section fade-in">
+      <p class="piece-section-label">Technical Details</p>
+      <div class="piece-technical">
+        <dl>
+          <dt>Medium</dt>
+          <dd>Generative infographic (Python / Pillow)</dd>
+          <dt>Dimensions</dt>
+          <dd>2400 &times; 3200 px</dd>
+          <dt>Color Space</dt>
+          <dd>sRGB, dark-ground with diagnostic rose indicatrices, teal continental outlines, gold grid</dd>
+          <dt>Technique</dt>
+          <dd>Four mathematical projections (Mercator, Sinusoidal, Robinson, Orthographic), Tissot's indicatrix computation, simplified continental polygons, dual-pass glow compositing</dd>
+          <dt>Data Source</dt>
+          <dd>Standard cartographic projection mathematics, Tissot's theorem (1859)</dd>
+          <dt>Date</dt>
+          <dd>February 2026</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="piece-nav">
+      <a href="circadian-rhythm-cycle.html">&larr; Circadian Rhythm Cycle</a>
+      <a href="the-fall-of-the-naira.html">The Fall of the Naira &rarr;</a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Signal Erosion Studio &middot; A collaboration between <a href="https://x.com/faroukzy" target="_blank" rel="noopener">@faroukzy</a> and <a href="https://www.anthropic.com" target="_blank" rel="noopener">Claude</a></p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
